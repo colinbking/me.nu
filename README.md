@@ -18,8 +18,10 @@ We wrote this algorithm for our program to rate each dish from the menu input. I
 
 ## How to run
 1. Setup [Google Cloud Vision API](https://cloud.google.com/vision/docs/before-you-begin) for your project to enable optical character recognition (OCR) for menu scanning.
+
     1a. put the Google Vision Service Account Key in a file called <code>apikey.json</code> inside of the <code>menu_read</code> directory 
 2. Setup [Google Cloud Maps Places API](https://developers.google.com/places/web-service/intro) to enable google review scraping
+
    2a. *please put the Google Maps API key in a file called <code>gmapsapikey.json</code> inside of the <code>menu_parse</code> directory
 3. Install neccesary dependencies
 4. Start the server with ```python3 menu_read/app.py```
